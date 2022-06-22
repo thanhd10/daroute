@@ -1,0 +1,594 @@
+{
+    "acc_x": {
+        "abs_energy": null,
+        "agg_linear_trend": [
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 50,
+                "f_agg": "var"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "max"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "min"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "max"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 50,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "min"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "var"
+            },
+            {
+                "attr": "intercept",
+                "chunk_len": 10,
+                "f_agg": "var"
+            }
+        ],
+        "autocorrelation": [
+            {
+                "lag": 4
+            },
+            {
+                "lag": 5
+            },
+            {
+                "lag": 9
+            }
+        ],
+        "c3": [
+            {
+                "lag": 1
+            },
+            {
+                "lag": 2
+            },
+            {
+                "lag": 3
+            }
+        ],
+        "change_quantiles": [
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.8,
+                "ql": 0.4
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 0.8,
+                "ql": 0.4
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.4,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 0.6,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.6,
+                "ql": 0.4
+            }
+        ],
+        "fft_coefficient": [
+            {
+                "attr": "abs",
+                "coeff": 4
+            },
+            {
+                "attr": "abs",
+                "coeff": 3
+            },
+            {
+                "attr": "real",
+                "coeff": 0
+            },
+            {
+                "attr": "abs",
+                "coeff": 5
+            },
+            {
+                "attr": "abs",
+                "coeff": 1
+            },
+            {
+                "attr": "imag",
+                "coeff": 2
+            },
+            {
+                "attr": "imag",
+                "coeff": 12
+            },
+            {
+                "attr": "abs",
+                "coeff": 22
+            },
+            {
+                "attr": "imag",
+                "coeff": 70
+            },
+            {
+                "attr": "imag",
+                "coeff": 5
+            },
+            {
+                "attr": "abs",
+                "coeff": 45
+            }
+        ],
+        "kurtosis": null,
+        "linear_trend": [
+            {
+                "attr": "stderr"
+            },
+            {
+                "attr": "pvalue"
+            }
+        ],
+        "longest_strike_below_mean": null,
+        "mean": null,
+        "percentage_of_reoccurring_datapoints_to_all_datapoints": null,
+        "quantile": [
+            {
+                "q": 0.2
+            },
+            {
+                "q": 0.1
+            },
+            {
+                "q": 0.3
+            },
+            {
+                "q": 0.4
+            },
+            {
+                "q": 0.9
+            },
+            {
+                "q": 0.8
+            }
+        ],
+        "range_count": [
+            {
+                "max": 1,
+                "min": -1
+            }
+        ],
+        "ratio_beyond_r_sigma": [
+            {
+                "r": 1.5
+            },
+            {
+                "r": 2
+            }
+        ],
+        "ratio_value_number_to_time_series_length": null,
+        "standard_deviation": null,
+        "sum_of_reoccurring_data_points": null,
+        "sum_of_reoccurring_values": null,
+        "sum_values": null,
+        "variance": null
+    },
+    "gyro_z": {
+        "abs_energy": null,
+        "agg_linear_trend": [
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 50,
+                "f_agg": "min"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 50,
+                "f_agg": "mean"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "min"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "min"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 50,
+                "f_agg": "var"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 5,
+                "f_agg": "max"
+            },
+            {
+                "attr": "stderr",
+                "chunk_len": 10,
+                "f_agg": "max"
+            },
+            {
+                "attr": "intercept",
+                "chunk_len": 50,
+                "f_agg": "var"
+            },
+            {
+                "attr": "intercept",
+                "chunk_len": 5,
+                "f_agg": "min"
+            },
+            {
+                "attr": "intercept",
+                "chunk_len": 5,
+                "f_agg": "max"
+            },
+            {
+                "attr": "intercept",
+                "chunk_len": 10,
+                "f_agg": "var"
+            }
+        ],
+        "autocorrelation": [
+            {
+                "lag": 3
+            },
+            {
+                "lag": 9
+            },
+            {
+                "lag": 2
+            }
+        ],
+        "c3": [
+            {
+                "lag": 1
+            },
+            {
+                "lag": 3
+            },
+            {
+                "lag": 2
+            }
+        ],
+        "change_quantiles": [
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.8,
+                "ql": 0.6
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 0.6,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.4,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.2,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 0.4,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 0.8,
+                "ql": 0.6
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.2,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.4,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.4,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.8,
+                "ql": 0.4
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.8,
+                "ql": 0.4
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.6,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.6,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 1.0,
+                "ql": 0.8
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 1.0,
+                "ql": 0.8
+            },
+            {
+                "f_agg": "var",
+                "isabs": true,
+                "qh": 1.0,
+                "ql": 0.6
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.4,
+                "ql": 0.0
+            },
+            {
+                "f_agg": "var",
+                "isabs": false,
+                "qh": 0.8,
+                "ql": 0.2
+            },
+            {
+                "f_agg": "mean",
+                "isabs": true,
+                "qh": 0.6,
+                "ql": 0.2
+            }
+        ],
+        "cid_ce": [
+            {
+                "normalize": true
+            }
+        ],
+        "count_below_mean": null,
+        "fft_coefficient": [
+            {
+                "attr": "abs",
+                "coeff": 4
+            },
+            {
+                "attr": "real",
+                "coeff": 0
+            },
+            {
+                "attr": "abs",
+                "coeff": 1
+            },
+            {
+                "attr": "abs",
+                "coeff": 3
+            },
+            {
+                "attr": "abs",
+                "coeff": 0
+            },
+            {
+                "attr": "abs",
+                "coeff": 5
+            },
+            {
+                "attr": "abs",
+                "coeff": 2
+            },
+            {
+                "attr": "abs",
+                "coeff": 6
+            },
+            {
+                "attr": "abs",
+                "coeff": 7
+            },
+            {
+                "attr": "imag",
+                "coeff": 5
+            },
+            {
+                "attr": "abs",
+                "coeff": 8
+            },
+            {
+                "attr": "abs",
+                "coeff": 14
+            },
+            {
+                "attr": "abs",
+                "coeff": 9
+            },
+            {
+                "attr": "abs",
+                "coeff": 31
+            },
+            {
+                "attr": "abs",
+                "coeff": 45
+            },
+            {
+                "attr": "imag",
+                "coeff": 7
+            }
+        ],
+        "kurtosis": null,
+        "linear_trend": [
+            {
+                "attr": "stderr"
+            },
+            {
+                "attr": "pvalue"
+            }
+        ],
+        "longest_strike_above_mean": null,
+        "longest_strike_below_mean": null,
+        "maximum": null,
+        "mean": null,
+        "minimum": null,
+        "number_peaks": [
+            {
+                "n": 3
+            }
+        ],
+        "percentage_of_reoccurring_datapoints_to_all_datapoints": null,
+        "quantile": [
+            {
+                "q": 0.8
+            },
+            {
+                "q": 0.9
+            },
+            {
+                "q": 0.1
+            },
+            {
+                "q": 0.7
+            },
+            {
+                "q": 0.2
+            },
+            {
+                "q": 0.3
+            },
+            {
+                "q": 0.4
+            }
+        ],
+        "range_count": [
+            {
+                "max": 1000000000000.0,
+                "min": 0
+            }
+        ],
+        "ratio_beyond_r_sigma": [
+            {
+                "r": 1.5
+            },
+            {
+                "r": 2
+            },
+            {
+                "r": 1
+            },
+            {
+                "r": 0.5
+            }
+        ],
+        "ratio_value_number_to_time_series_length": null,
+        "skewness": null,
+        "standard_deviation": null,
+        "sum_of_reoccurring_data_points": null,
+        "sum_of_reoccurring_values": null,
+        "sum_values": null,
+        "variance": null
+    },
+    "speed": {
+        "c3": [
+            {
+                "lag": 2
+            },
+            {
+                "lag": 3
+            },
+            {
+                "lag": 1
+            }
+        ],
+        "mean": null,
+        "median": null,
+        "quantile": [
+            {
+                "q": 0.4
+            },
+            {
+                "q": 0.3
+            },
+            {
+                "q": 0.2
+            },
+            {
+                "q": 0.7
+            }
+        ],
+        "range_count": [
+            {
+                "max": 1,
+                "min": -1
+            }
+        ]
+    }
+}

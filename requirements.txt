@@ -1,0 +1,11 @@
+geopy~=2.0.0
+osmium~=3.0.1
+tqdm~=4.51.0
+p_tqdm
+pandas~=1.2.0
+numpy~=1.19.2
+matplotlib~=3.3.2
+mplleaflet~=0.0.5
+seaborn~=0.11.0
+tsfresh~=0.15.1
+tensorflow~=2.4.1
