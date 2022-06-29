@@ -88,6 +88,13 @@ class TestRouteCandidatesNarainData(unittest.TestCase):
         all_results_df.to_csv(TEST_RESULT_TARGET_DIR + "test_results_" + cls.test_run_start + ".csv", index=False)
 
     def test_all_routes(self):
+        if len(FileUtils.allDirectories(PROCESSED_DIRECTORY, file_filter="Accelerometer.csv")) == 0:
+            raise Exception("Could not find any route in directory %s. "
+                            "Did you forget to preprocess Narain data with "
+                            "the script narain_attack/sensor_data_processing/process.py?"
+                            "Or check file paths in narain_attack/settings.py."
+                            % PROCESSED_DIRECTORY)
+
         for directory in FileUtils.allDirectories(PROCESSED_DIRECTORY, file_filter="Accelerometer.csv"):
             self.logger.info('-' * 80)
             test_route = create_next_test_route(self, directory)

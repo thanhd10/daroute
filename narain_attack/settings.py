@@ -11,7 +11,7 @@ For Usage, set
 
 TARGET_LOCATION = "Boston"
 AREA = 'boston_test'
-SAMPLES_DIRECTORY = ROOT_DIR + "/data/Files/Sensors/Samples/boston_test"
+SAMPLES_DIRECTORY = ROOT_DIR + "/data/Files/Sensors/Samples/" + AREA
 
 # Directories, were preprocessed and transformed data of Narain will be stored
 PROCESSED_DIRECTORY = ROOT_DIR + "/data/Files/Sensors/Processed/" + AREA
