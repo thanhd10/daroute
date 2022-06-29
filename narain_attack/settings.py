@@ -10,12 +10,12 @@ For Usage, set
 """
 
 TARGET_LOCATION = "Boston"
-AREA = 'boston'
-SAMPLES_DIRECTORY = ROOT_DIR + "/data/narain_data/Files/Sensors/Samples/" + AREA
+AREA = 'boston_test'
+SAMPLES_DIRECTORY = ROOT_DIR + "/data/Files/Sensors/Samples/boston_test"
 
 # Directories, were preprocessed and transformed data of Narain will be stored
-PROCESSED_DIRECTORY = ROOT_DIR + "/data/narain_data/Files/Sensors/Processed/" + AREA
-DAROUTE_FORMAT_DIR = ROOT_DIR + "/data/narain_data/Files/Sensors/DaRoute/" + AREA
+PROCESSED_DIRECTORY = ROOT_DIR + "/data/Files/Sensors/Processed/" + AREA
+DAROUTE_FORMAT_DIR = ROOT_DIR + "/data/Files/Sensors/DaRoute/" + AREA
 
 AREA_TARGET_PATH = ROOT_DIR + '/data/target_maps/' + TARGET_LOCATION
 

@@ -16,7 +16,7 @@ For Usage, set the TARGET_LOCATION directory, that was created previously with c
 ######################################################################
 
 # Set target location name - a folder with that name should exist inside /data/target_maps/
-TARGET_LOCATION = "Q1_Regensburg"
+TARGET_LOCATION = "Boston_Waltereit"
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
