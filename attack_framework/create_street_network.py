@@ -21,7 +21,7 @@ For Usage, set
 ######################################################################
 
 # SET OSM FILE TO PARSE HERE
-OSM_FILE = ROOT_DIR + "/data/osm_exports/12-04-21/Q1_Regensburg.osm"
+OSM_FILE = ROOT_DIR + "/data/osm_export_12_04_21/Q1_Regensburg.osm"
 
 # Set target location name
 TARGET_LOCATION = "Regensburg"
