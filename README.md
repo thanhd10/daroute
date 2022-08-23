@@ -33,7 +33,9 @@ Each provided test route contains the following in a directory whose name starts
 As already mentioned, not all routes were provided, as they contain sensitive information of voluntary participants.
 Instead, a selected set of routes are provided in this repository that were collected by the authors themselves for evaluation purposes.
 These test routes can be found under the directory *"data/regensburg"*. 
-
+Additionally, an OSM dump for the smallest testing area of Regensburg (used in the paper) is provided under *"data/osm_export_12_04_21"*.
+On request, we can provide the larger testing areas. 
+They are not included in this repository due to their size.
 
 # **Run the attack**
 
@@ -48,7 +50,7 @@ These test routes can be found under the directory *"data/regensburg"*.
 Alternatively, run all tests with *test/test_routes.py* to test the provided test routes.
 Results can then be found under *test/logs* and *test/results*.
 In case you want to test your own data prepared in the above described format, and adjust the *test/settings.py*.
-
+Make sure to create a street network before running the script *test/test_routes.py*.
 
 # **Reproducing the experiments with data provided by Narain et al. (2016)**
 

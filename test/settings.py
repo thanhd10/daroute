@@ -5,7 +5,6 @@ For Usage, set
     a) the variable TARGET_LOCATION: the directory name, where the street network 
        was created with create_street_network.py
     b) the variable AREA: the directory name (no path), in which the data in DaRoute format is located
-    c) the variable SAMPLES_DIRECTORY: the path to raw Narain data
 """
 
 TARGET_LOCATION = "Regensburg"
