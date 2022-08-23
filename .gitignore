@@ -3,6 +3,6 @@ venv
 **/__pycache__/
 *.log
 *.csv
-data
+data/*
 !data/regensburg
 !data/osm_export_12_04_21

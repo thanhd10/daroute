@@ -1,0 +1,1 @@
+/data/osm_export_12_04_21/Q1_Regensburg.osm filter=lfs diff=lfs merge=lfs -text
