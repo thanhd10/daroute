@@ -4,6 +4,6 @@ venv
 *.log
 *.csv
 *.osm
-data
+data/*
 !data/regensburg
 !data/osm_exports/12-04-21/Q1_Regensburg.osm
