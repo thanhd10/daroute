@@ -9,11 +9,18 @@ from trajectory_attack.create_route_candidates import RouteCandidateCreator
 from trajectory_attack.rank_route_candidates import get_ranked_route_candidates
 from utils.eval_helper import create_osm_path
 
-JSON_FILE_PATH = ROOT_DIR + "/data/Files/Sensors/DaRoute/boston_test/Sample_Route2.json"
-INITIAL_HEADING = 65.25
-TARGET_LOCATION = "Boston"
+# TODO remove again
+FILE_NAME = 'Route_F5'
+
+JSON_FILE_PATH = ROOT_DIR + "/data/Regensburg/" + FILE_NAME + ".json"
+INITIAL_HEADING = 175
+TARGET_LOCATION = "Regensburg"
 
 AREA_TARGET_PATH = ROOT_DIR + "/data/target_maps/" + TARGET_LOCATION
+
+# TODO remove again
+JSON_SENSOR_FILE_PATH = ROOT_DIR + "/data/Regensburg/" + FILE_NAME + ".json"
+GPS_TRIP_FILE_PATH = ROOT_DIR + "/data/Regensburg/" + FILE_NAME + ".html"
 
 
 def map_turns_to_intersection_id(route_candidates: [[int]], turns_df: pd.DataFrame) -> [[int]]:
@@ -65,7 +72,7 @@ if __name__ == '__main__':
     print("Ranked %d route candidates in %.4f seconds." % (len(ranked_route_candidates), (end_time - start_time)))
 
     rank = 1
-    for candidate in ranked_route_candidates[:20]:
+    for candidate in ranked_route_candidates[:10]:
         # Format route candidates into osm nodes and geographical representation
         route_candidate_as_osm_nodes = create_osm_path(candidate.segment_ids, segment_to_osm_ids)
         route_candidate_as_lat_lng = [node_id_to_latlng[node]

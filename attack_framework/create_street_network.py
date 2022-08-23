@@ -21,10 +21,10 @@ For Usage, set
 ######################################################################
 
 # SET OSM FILE TO PARSE HERE
-OSM_FILE = ROOT_DIR + "/data/osm_exports/boston/streets.osm"
+OSM_FILE = ROOT_DIR + "/data/osm_exports/12-04-21/Q1_Regensburg.osm"
 
 # Set target location name
-TARGET_LOCATION = "Boston"
+TARGET_LOCATION = "Regensburg"
 
 
 ######################################################################

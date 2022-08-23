@@ -11,7 +11,7 @@ from definitions import ROOT_DIR
 - Edit the variable <SCRIPT_FILE_NAME> to the absolute path to the script that should be run
 - Edit the variable <SCRIPT_OUTPUT> to change the name of the .txt file, that stores the console output
 """
-SCRIPT_FILE_NAME = ROOT_DIR + "/test/test_route_candidates.py"
+SCRIPT_FILE_NAME = ROOT_DIR + "/test/test_all_routes.py"
 SCRIPT_OUTPUT = "console.txt"
 
 console_log_path = ROOT_DIR + "/screen_logs/" + datetime.now().strftime('%d-%b-%Y-%H-%M-%S') + "-" + SCRIPT_OUTPUT

@@ -103,8 +103,8 @@ class TestRouteCandidatesNarainData(unittest.TestCase):
 
 def create_next_test_route(unit_test: TestRouteCandidatesNarainData, output_dir: str):
     # retrieve initial heading from idle phase of route
-    if os.path.exists(output_dir + "/Start_Heading.txt"):
-        with open(output_dir + "/Start_Heading.txt", "r") as f:
+    if os.path.exists(output_dir + "/Start_Heading.txt.txt"):
+        with open(output_dir + "/Start_Heading.txt.txt", "r") as f:
             initial_heading = int(f.readlines()[0])
     else:
         mag = pd.read_csv(output_dir + "/Magnetometer.csv")
@@ -117,7 +117,7 @@ def create_next_test_route(unit_test: TestRouteCandidatesNarainData, output_dir:
 
     # extract osm nodes as the ground truth
     osm_nodes = []
-    with open(output_dir + "/OSM_Nodes.txt", "r") as fh:
+    with open(output_dir + "/OSM_Nodes.txt.txt", "r") as fh:
         for line in fh.readlines()[1:]:
             start = line.find("('") + 2
             end = line.find("', '")

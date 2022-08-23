@@ -37,7 +37,7 @@ if __name__ == '__main__':
         from shutil import copyfile
 
         copyfile(source_directory + "/Locations.csv", output_directory + "/Locations.csv")
-        copyfile(source_directory + "/OSM_Nodes.txt", output_directory + "/OSM_Nodes.txt")
+        copyfile(source_directory + "/OSM_Nodes.txt.txt", output_directory + "/OSM_Nodes.txt.txt")
         copyfile(source_directory + "/Magnetometer.csv", output_directory + "/Magnetometer.csv")
-        if os.path.exists(source_directory + "/Start_Heading.txt"):
-            copyfile(source_directory + "/Start_Heading.txt", output_directory + "/Start_Heading.txt")
+        if os.path.exists(source_directory + "/Start_Heading.txt.txt"):
+            copyfile(source_directory + "/Start_Heading.txt.txt", output_directory + "/Start_Heading.txt.txt")
